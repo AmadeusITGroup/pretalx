@@ -26,7 +26,7 @@
 
     {% include "orga/includes/tablist.html" %}
 
-    <div role="tabpanel" id="tabpanel-group" aria-labelledby="tab-group" tabindex="0" aria-hidden="false">
+    <section role="tabpanel" id="tabpanel-group" aria-labelledby="tab-group" tabindex="0" aria-hidden="false">
         <p>
             {% blocktranslate trimmed %}
                 Reviewers can be assigned to tracks by way of review teams. If you require more
@@ -100,8 +100,8 @@
                 {% endfor %}
             </tbody>
         </table>
-    </div>
-    <div role="tabpanel" id="tabpanel-individual" aria-labelledby="tab-individual" tabindex="0" aria-hidden="false">
+    </section>
+    <section role="tabpanel" id="tabpanel-individual" aria-labelledby="tab-individual" tabindex="0" aria-hidden="false">
 
         <div class="alert alert-info"><p>
             {% if request.event.active_review_phase.proposal_visibility == "assigned" %}
@@ -128,13 +128,13 @@
             {% endblocktranslate %}
         </p>
         <div class="float-right">
-            <details class="dropdown">
+            <details class="dropdown" aria-haspopup="menu" role="menu">
                 <summary class="btn btn-info" id="review-actions">
                     {% translate "Actions" %} <i class="fa fa-caret-down"></i>
                 </summary>
 
                 <div class="dropdown-content dropdown-front dropdown-content-s{% if rtl %}e{% else %}w{% endif %}">
-                    <a class="dropdown-item" href="{{ request.path }}import" target="_blank" rel="noopener">
+                    <a class="dropdown-item" href="{{ request.path }}import" target="_blank" rel="noopener" role="menuitem" tabindex="-1">
                         <i class="fa fa-upload"></i> {% translate "Import assignments" %}
                     </a>
                 </ul>
@@ -148,6 +148,6 @@
 
         {% include "orga/includes/base_form.html" %}
 
-    </div>
+    </section>
 {% endblock content %}
 
