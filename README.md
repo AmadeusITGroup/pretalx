@@ -153,7 +153,7 @@
 | src/pretalx/event/models/event.py                                          |      562 |       31 |      124 |       10 |     93% |85, 464, 469, 515, 518, 667-669, 698->712, 730, 734-745, 767-768, 776, 818-827, 965->968 |
 | src/pretalx/event/models/organiser.py                                      |      119 |        8 |       18 |        6 |     90% |48, 55, 69, 77, 258, 266, 273, 315 |
 | src/pretalx/event/rules.py                                                 |       52 |        0 |       12 |        0 |    100% |           |
-| src/pretalx/event/services.py                                              |       57 |        3 |       20 |        3 |     92% |81, 86, 118 |
+| src/pretalx/event/services.py                                              |       57 |        2 |       20 |        2 |     95% |   81, 118 |
 | src/pretalx/event/stages.py                                                |       39 |        0 |       10 |        0 |    100% |           |
 | src/pretalx/event/utils.py                                                 |        7 |        0 |        2 |        0 |    100% |           |
 | src/pretalx/mail/apps.py                                                   |        4 |        0 |        0 |        0 |    100% |           |
@@ -261,7 +261,7 @@
 | src/pretalx/submission/signals.py                                          |        3 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/submission/tasks.py                                            |       15 |        3 |        4 |        2 |     74% | 21-22, 26 |
 | src/tests/agenda/test\_agenda\_permissions.py                              |       22 |        0 |        2 |        0 |    100% |           |
-| src/tests/agenda/test\_agenda\_schedule\_export.py                         |      320 |        2 |       12 |        2 |     99% |    38, 60 |
+| src/tests/agenda/test\_agenda\_schedule\_export.py                         |      320 |        5 |       12 |        2 |     98% |38, 60, 100, 119-120 |
 | src/tests/agenda/test\_agenda\_widget.py                                   |       41 |        0 |        2 |        0 |    100% |           |
 | src/tests/agenda/views/test\_agenda\_featured.py                           |       57 |        0 |        4 |        0 |    100% |           |
 | src/tests/agenda/views/test\_agenda\_feedback.py                           |       63 |        0 |        0 |        0 |    100% |           |
@@ -280,7 +280,7 @@
 | src/tests/api/test\_api\_schedule.py                                       |      498 |        0 |        6 |        0 |    100% |           |
 | src/tests/api/test\_api\_speaker\_information.py                           |      141 |        0 |        0 |        0 |    100% |           |
 | src/tests/api/test\_api\_speakers.py                                       |      299 |        0 |        4 |        0 |    100% |           |
-| src/tests/api/test\_api\_submissions.py                                    |      809 |        0 |        2 |        0 |    100% |           |
+| src/tests/api/test\_api\_submissions.py                                    |      812 |        0 |        2 |        0 |    100% |           |
 | src/tests/api/test\_api\_teams.py                                          |      208 |        0 |        0 |        0 |    100% |           |
 | src/tests/api/test\_api\_upload.py                                         |       30 |        0 |        0 |        0 |    100% |           |
 | src/tests/cfp/test\_cfp\_flow.py                                           |      124 |        0 |        0 |        0 |    100% |           |
@@ -359,7 +359,7 @@
 | src/tests/submission/test\_submission\_model.py                            |      295 |        0 |        6 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_permissions.py                      |       41 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_type\_model.py                      |       21 |        0 |        0 |        0 |    100% |           |
-| **TOTAL**                                                                  | **33692** | **1937** | **5394** |  **757** | **92%** |           |
+| **TOTAL**                                                                  | **33695** | **1939** | **5394** |  **756** | **92%** |           |
 
 
 ## Setup coverage badge
