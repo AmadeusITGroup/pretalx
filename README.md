@@ -14,7 +14,7 @@
 | src/pretalx/agenda/tasks.py                                                |       29 |        0 |        8 |        0 |    100% |           |
 | src/pretalx/agenda/views/featured.py                                       |       25 |        0 |        2 |        0 |    100% |           |
 | src/pretalx/agenda/views/feed.py                                           |       33 |        0 |        2 |        0 |    100% |           |
-| src/pretalx/agenda/views/schedule.py                                       |      136 |        2 |       34 |        1 |     98% |   64, 163 |
+| src/pretalx/agenda/views/schedule.py                                       |      135 |        2 |       34 |        1 |     98% |   64, 163 |
 | src/pretalx/agenda/views/speaker.py                                        |       99 |        9 |       18 |        3 |     86% |78, 108-114, 152, 162-163 |
 | src/pretalx/agenda/views/talk.py                                           |      166 |        5 |       26 |        4 |     93% |70->69, 76->69, 161-164, 175-176 |
 | src/pretalx/agenda/views/utils.py                                          |       51 |        6 |       22 |        4 |     86% |21, 59, 61, 65-69, 77->79 |
@@ -361,7 +361,7 @@
 | src/tests/submission/test\_submission\_model.py                            |      295 |        0 |        6 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_permissions.py                      |       41 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_type\_model.py                      |       21 |        0 |        0 |        0 |    100% |           |
-| **TOTAL**                                                                  | **33961** | **1943** | **5444** |  **770** | **92%** |           |
+| **TOTAL**                                                                  | **33960** | **1943** | **5444** |  **770** | **92%** |           |
 
 
 ## Setup coverage badge
