@@ -91,12 +91,12 @@
 | src/pretalx/common/forms/renderers.py                                      |       22 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/common/forms/tables.py                                         |       40 |        1 |       16 |        2 |     95% |61, 100->105 |
 | src/pretalx/common/forms/validators.py                                     |       50 |        0 |        4 |        0 |    100% |           |
-| src/pretalx/common/forms/widgets.py                                        |      295 |        4 |       42 |        4 |     98% |256, 410, 559, 570 |
+| src/pretalx/common/forms/widgets.py                                        |      295 |        5 |       42 |        5 |     97% |256, 289, 410, 559, 570 |
 | src/pretalx/common/image.py                                                |       98 |       29 |       36 |        7 |     63% |30-72, 95, 97, 110, 124->128, 128->exit, 149, 152, 176 |
 | src/pretalx/common/language.py                                             |       22 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/common/log\_display.py                                         |       86 |       10 |       38 |        6 |     87% |171, 188, 197-202, 204-206, 243, 246 |
 | src/pretalx/common/mail.py                                                 |       58 |        4 |       16 |        2 |     89% |89, 142-144 |
-| src/pretalx/common/management/commands/create\_test\_event.py              |      178 |        5 |       54 |        2 |     96% |150->exit, 155, 163-166 |
+| src/pretalx/common/management/commands/create\_test\_event.py              |      179 |        5 |       54 |        2 |     96% |150->exit, 155, 164-167 |
 | src/pretalx/common/management/commands/devserver.py                        |       16 |       16 |        4 |        0 |      0% |     10-39 |
 | src/pretalx/common/management/commands/init.py                             |       16 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/common/management/commands/makemessages.py                     |       49 |        6 |       18 |        3 |     84% |47-48, 56, 70-72 |
@@ -153,7 +153,7 @@
 | src/pretalx/common/views/shortlink.py                                      |       30 |        0 |       18 |        0 |    100% |           |
 | src/pretalx/event/apps.py                                                  |        4 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/event/forms.py                                                 |      162 |        7 |       34 |        5 |     94% |74-77, 130-131, 144, 239->exit, 294-295, 361->exit |
-| src/pretalx/event/models/event.py                                          |      541 |       30 |      116 |       11 |     93% |486, 491, 537, 540, 689-691, 720->734, 752, 756-767, 789-790, 798, 840-849, 982, 994->997 |
+| src/pretalx/event/models/event.py                                          |      544 |       30 |      118 |       11 |     93% |486, 491, 537, 540, 689-691, 720->734, 752, 756-767, 789-790, 798, 840-849, 983, 998->1001 |
 | src/pretalx/event/models/organiser.py                                      |      116 |        8 |       18 |        6 |     90% |47, 54, 68, 76, 257, 265, 272, 314 |
 | src/pretalx/event/rules.py                                                 |       51 |        0 |       12 |        0 |    100% |           |
 | src/pretalx/event/services.py                                              |       34 |        3 |       10 |        1 |     91% |     62-66 |
@@ -197,12 +197,12 @@
 | src/pretalx/orga/views/cards.py                                            |       16 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/orga/views/cfp.py                                              |      729 |       63 |      210 |       42 |     88% |98, 101, 112-113, 117->121, 161, 169, 193, 197, 200->194, 222, 229, 231, 233, 235-237, 267-273, 291, 301->304, 305, 309-320, 366, 375, 412->406, 414->406, 490, 556, 616-617, 700, 701->703, 705->707, 707->710, 771, 784, 832, 834, 893->895, 937-942, 961-962, 1009->1008, 1021-1022, 1051-1052, 1055, 1059, 1077, 1096, 1147, 1160, 1199-1205 |
 | src/pretalx/orga/views/dashboard.py                                        |      161 |       28 |       46 |        9 |     78% |31-43, 79, 108-114, 136-137, 156-167, 219, 236-239, 285-286, 295->307, 352-353, 362-369 |
-| src/pretalx/orga/views/event.py                                            |      431 |       28 |      112 |       25 |     90% |156-157, 205, 272, 324, 364, 366->371, 395, 400->398, 415, 423, 427, 433, 463, 467->465, 469, 479-480, 483-487, 490, 591-597, 665, 685, 708-709, 733->732, 736->738, 739, 782->787 |
+| src/pretalx/orga/views/event.py                                            |      434 |       28 |      114 |       25 |     90% |156-157, 205, 272, 324, 364, 366->371, 395, 400->398, 415, 423, 427, 433, 463, 467->465, 469, 479-480, 483-487, 490, 595-601, 669, 689, 712-713, 737->736, 740->742, 743, 786->791 |
 | src/pretalx/orga/views/mails.py                                            |      351 |       45 |       72 |       14 |     83% |57-58, 193-195, 205, 214-216, 266-272, 348-350, 384->392, 388, 414, 419-420, 447, 471, 477-522, 549-551, 566, 572, 590 |
 | src/pretalx/orga/views/organiser.py                                        |      313 |       27 |       58 |        8 |     85% |119-121, 142-143, 158-159, 294-295, 336, 383, 396, 398-414, 480-482 |
 | src/pretalx/orga/views/person.py                                           |      120 |       20 |       30 |        5 |     81% |77-86, 90-97, 99-107, 156, 165, 181-182 |
 | src/pretalx/orga/views/plugins.py                                          |       36 |        0 |        6 |        0 |    100% |           |
-| src/pretalx/orga/views/review.py                                           |      554 |       49 |      126 |       20 |     88% |91, 94-97, 99-102, 254->256, 256->262, 297->exit, 318-319, 321-327, 372->374, 379, 385-390, 406, 448-461, 472, 484-485, 495->497, 503-504, 555-556, 567-568, 579->592, 594, 767-768, 945-946, 1007-1018, 1033, 1063-1064 |
+| src/pretalx/orga/views/review.py                                           |      558 |       49 |      130 |       21 |     88% |91, 94-97, 99-102, 254->256, 256->262, 297->exit, 318-319, 321-327, 372->374, 379, 385-390, 406, 448-461, 472, 484-485, 495->497, 503-504, 555-556, 567-568, 579->592, 594, 729->735, 773-774, 951-952, 1013-1024, 1039, 1069-1070 |
 | src/pretalx/orga/views/schedule.py                                         |      300 |       29 |       52 |        9 |     86% |52->59, 121-122, 165-169, 318, 319->322, 331, 361, 384, 396, 406, 416-447, 465, 507, 572-579 |
 | src/pretalx/orga/views/speaker.py                                          |      186 |       11 |       20 |        5 |     91% |93-105, 107-110, 114, 216, 290, 353-354 |
 | src/pretalx/orga/views/submission.py                                       |      685 |       36 |      120 |       21 |     92% |212-216, 236-238, 241, 258-264, 353->361, 440, 448, 472, 560, 563->557, 600, 623->633, 634, 641->653, 651->653, 712, 765->exit, 767, 839-840, 873->883, 925, 976, 1003, 1264, 1268, 1272, 1279-1285, 1308-1309, 1311-1312 |
@@ -231,7 +231,7 @@
 | src/pretalx/schedule/ical.py                                               |       34 |        2 |        4 |        0 |     95% |     24-25 |
 | src/pretalx/schedule/models/availability.py                                |       86 |        1 |       30 |        1 |     98% |55, 76->79 |
 | src/pretalx/schedule/models/room.py                                        |       47 |        3 |        4 |        2 |     90% |94, 101, 104 |
-| src/pretalx/schedule/models/schedule.py                                    |      191 |       25 |       62 |        5 |     85% |147-188, 233->235, 339, 350-356, 383->385, 485 |
+| src/pretalx/schedule/models/schedule.py                                    |      191 |       22 |       62 |        3 |     88% |147-188, 339, 383->385, 485 |
 | src/pretalx/schedule/models/slot.py                                        |      126 |        5 |       20 |        2 |     94% |209-216, 227 |
 | src/pretalx/schedule/notifications.py                                      |       24 |        0 |        8 |        0 |    100% |           |
 | src/pretalx/schedule/phrases.py                                            |       14 |        0 |        0 |        0 |    100% |           |
@@ -246,7 +246,7 @@
 | src/pretalx/submission/forms/feedback.py                                   |       25 |        0 |        4 |        0 |    100% |           |
 | src/pretalx/submission/forms/question.py                                   |       67 |        0 |       30 |        2 |     98% |87->exit, 109->108 |
 | src/pretalx/submission/forms/resource.py                                   |       25 |        2 |        6 |        2 |     87% |    31, 35 |
-| src/pretalx/submission/forms/submission.py                                 |      250 |       32 |      106 |       17 |     84% |111, 154, 168, 173->exit, 178, 218, 222-223, 226, 233-240, 263->265, 397, 428, 430-436, 478-491, 493-496, 503, 517-520, 525 |
+| src/pretalx/submission/forms/submission.py                                 |      250 |       32 |      106 |       17 |     84% |111, 154, 168, 173->exit, 178, 218, 222-223, 226, 233-240, 263->265, 397, 428, 430-436, 482-495, 497-500, 507, 521-524, 529 |
 | src/pretalx/submission/forms/tag.py                                        |       21 |        0 |        4 |        0 |    100% |           |
 | src/pretalx/submission/icons.py                                            |        1 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/submission/models/access\_code.py                              |       55 |        0 |        4 |        0 |    100% |           |
@@ -320,7 +320,7 @@
 | src/tests/conftest.py                                                      |      546 |        0 |       12 |        0 |    100% |           |
 | src/tests/dummy\_app.py                                                    |       13 |        0 |        0 |        0 |    100% |           |
 | src/tests/dummy\_signals.py                                                |       52 |        0 |        8 |        0 |    100% |           |
-| src/tests/event/test\_event\_model.py                                      |      170 |        0 |        0 |        0 |    100% |           |
+| src/tests/event/test\_event\_model.py                                      |      179 |        0 |        0 |        0 |    100% |           |
 | src/tests/event/test\_event\_services.py                                   |       59 |        0 |        0 |        0 |    100% |           |
 | src/tests/event/test\_event\_stages.py                                     |       24 |        0 |        6 |        0 |    100% |           |
 | src/tests/event/test\_event\_utils.py                                      |       11 |        0 |        0 |        0 |    100% |           |
@@ -335,14 +335,14 @@
 | src/tests/orga/views/test\_orga\_views\_admin.py                           |      104 |        0 |        2 |        0 |    100% |           |
 | src/tests/orga/views/test\_orga\_views\_cfp.py                             |      808 |        0 |       10 |        0 |    100% |           |
 | src/tests/orga/views/test\_orga\_views\_dashboard.py                       |      173 |        0 |       52 |        0 |    100% |           |
-| src/tests/orga/views/test\_orga\_views\_event.py                           |      472 |        0 |        2 |        0 |    100% |           |
+| src/tests/orga/views/test\_orga\_views\_event.py                           |      480 |        0 |        2 |        0 |    100% |           |
 | src/tests/orga/views/test\_orga\_views\_mail.py                            |      417 |        0 |       16 |        0 |    100% |           |
 | src/tests/orga/views/test\_orga\_views\_organiser.py                       |      339 |        0 |        2 |        0 |    100% |           |
 | src/tests/orga/views/test\_orga\_views\_person.py                          |       44 |        0 |        2 |        0 |    100% |           |
-| src/tests/orga/views/test\_orga\_views\_review.py                          |      465 |        0 |        4 |        0 |    100% |           |
+| src/tests/orga/views/test\_orga\_views\_review.py                          |      477 |        0 |        4 |        0 |    100% |           |
 | src/tests/orga/views/test\_orga\_views\_schedule.py                        |      346 |        0 |        8 |        0 |    100% |           |
 | src/tests/orga/views/test\_orga\_views\_speaker.py                         |      270 |        0 |        6 |        0 |    100% |           |
-| src/tests/orga/views/test\_orga\_views\_submission.py                      |      746 |        0 |       16 |        0 |    100% |           |
+| src/tests/orga/views/test\_orga\_views\_submission.py                      |      754 |        0 |       16 |        0 |    100% |           |
 | src/tests/orga/views/test\_orga\_views\_submission\_cards.py               |       14 |        0 |        0 |        0 |    100% |           |
 | src/tests/person/test\_auth\_token\_model.py                               |       11 |        0 |        0 |        0 |    100% |           |
 | src/tests/person/test\_information\_model.py                               |        7 |        0 |        0 |        0 |    100% |           |
@@ -354,7 +354,7 @@
 | src/tests/schedule/test\_schedule\_exporters.py                            |       28 |        0 |        0 |        0 |    100% |           |
 | src/tests/schedule/test\_schedule\_forms.py                                |      105 |        0 |       10 |        0 |    100% |           |
 | src/tests/schedule/test\_schedule\_model.py                                |      199 |        0 |        2 |        0 |    100% |           |
-| src/tests/schedule/test\_schedule\_models\_slot.py                         |       75 |        0 |        6 |        0 |    100% |           |
+| src/tests/schedule/test\_schedule\_models\_slot.py                         |       98 |        0 |        6 |        0 |    100% |           |
 | src/tests/schedule/test\_schedule\_utils.py                                |       25 |        0 |        2 |        0 |    100% |           |
 | src/tests/services/test\_documentation.py                                  |       37 |        0 |       12 |        0 |    100% |           |
 | src/tests/services/test\_models.py                                         |        8 |        0 |        0 |        0 |    100% |           |
@@ -366,7 +366,7 @@
 | src/tests/submission/test\_submission\_permissions.py                      |       47 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_tasks.py                            |       98 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_type\_model.py                      |       21 |        0 |        0 |        0 |    100% |           |
-| **TOTAL**                                                                  | **35786** | **1836** | **5628** |  **774** | **93%** |           |
+| **TOTAL**                                                                  | **35857** | **1834** | **5636** |  **774** | **93%** |           |
 
 
 ## Setup coverage badge
