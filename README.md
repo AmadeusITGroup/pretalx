@@ -16,7 +16,7 @@
 | src/pretalx/agenda/views/feed.py                                           |       34 |        0 |        2 |        0 |    100% |           |
 | src/pretalx/agenda/views/schedule.py                                       |      136 |        2 |       34 |        1 |     98% |   64, 144 |
 | src/pretalx/agenda/views/speaker.py                                        |       90 |        8 |       18 |        3 |     86% |84-90, 126, 131-132, 144->exit |
-| src/pretalx/agenda/views/talk.py                                           |      154 |        3 |       18 |        3 |     95% |70->69, 76->69, 148-151 |
+| src/pretalx/agenda/views/talk.py                                           |      162 |        3 |       18 |        3 |     96% |75->74, 81->74, 153-156 |
 | src/pretalx/agenda/views/utils.py                                          |       50 |        6 |       22 |        4 |     86% |21, 59, 61, 65-69, 77->79 |
 | src/pretalx/agenda/views/widget.py                                         |       83 |        6 |       28 |        3 |     92% |48, 92-95, 110 |
 | src/pretalx/api/apps.py                                                    |        3 |        0 |        0 |        0 |    100% |           |
@@ -122,7 +122,7 @@
 | src/pretalx/common/tables.py                                               |      402 |       50 |      168 |       26 |     85% |61, 63->65, 76-77, 80-81, 135->133, 140->142, 164, 208-209, 253, 260, 286, 289-291, 294->297, 301-308, 322, 396->400, 438-440, 473, 478, 491, 497, 501-504, 571, 582-584, 635, 646->648, 651-652, 670->672, 700-702, 708, 713, 723-725, 728-729 |
 | src/pretalx/common/tasks.py                                                |       40 |        4 |       14 |        5 |     83% |28, 57, 62, 68, 71->exit |
 | src/pretalx/common/templatetags/copyable.py                                |       13 |        0 |        2 |        0 |    100% |           |
-| src/pretalx/common/templatetags/datetimerange.py                           |       28 |        5 |        6 |        3 |     76% |31, 33, 46-48 |
+| src/pretalx/common/templatetags/datetimerange.py                           |       28 |        2 |        6 |        2 |     88% |    31, 33 |
 | src/pretalx/common/templatetags/event\_tags.py                             |        5 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/common/templatetags/filesize.py                                |       13 |        3 |        4 |        1 |     76% | 13-14, 19 |
 | src/pretalx/common/templatetags/form\_media.py                             |       42 |        6 |       24 |        2 |     79% | 39, 58-67 |
@@ -368,7 +368,7 @@
 | src/tests/submission/test\_submission\_permissions.py                      |       47 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_tasks.py                            |       98 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_type\_model.py                      |       21 |        0 |        0 |        0 |    100% |           |
-| **TOTAL**                                                                  | **36561** | **1836** | **5656** |  **763** | **93%** |           |
+| **TOTAL**                                                                  | **36569** | **1833** | **5656** |  **762** | **93%** |           |
 
 
 ## Setup coverage badge
