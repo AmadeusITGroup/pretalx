@@ -122,7 +122,7 @@
 | src/pretalx/common/tables.py                                               |      402 |       50 |      168 |       26 |     85% |61, 63->65, 76-77, 80-81, 135->133, 140->142, 164, 208-209, 253, 260, 286, 289-291, 294->297, 301-308, 322, 396->400, 438-440, 473, 478, 491, 497, 501-504, 571, 582-584, 635, 646->648, 651-652, 670->672, 700-702, 708, 713, 723-725, 728-729 |
 | src/pretalx/common/tasks.py                                                |       40 |        4 |       14 |        5 |     83% |28, 57, 62, 68, 71->exit |
 | src/pretalx/common/templatetags/copyable.py                                |       13 |        0 |        2 |        0 |    100% |           |
-| src/pretalx/common/templatetags/datetimerange.py                           |       28 |        5 |        6 |        3 |     76% |31, 33, 46-48 |
+| src/pretalx/common/templatetags/datetimerange.py                           |       28 |        2 |        6 |        2 |     88% |    31, 33 |
 | src/pretalx/common/templatetags/event\_tags.py                             |        5 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/common/templatetags/filesize.py                                |       13 |        3 |        4 |        1 |     76% | 13-14, 19 |
 | src/pretalx/common/templatetags/form\_media.py                             |       42 |        6 |       24 |        2 |     79% | 39, 58-67 |
@@ -165,7 +165,7 @@
 | src/pretalx/mail/models.py                                                 |      247 |       11 |       62 |        7 |     94% |41, 249-265, 267, 274, 432->434, 456, 510-513 |
 | src/pretalx/mail/placeholders.py                                           |       40 |        3 |        2 |        0 |     93% |16, 28, 50 |
 | src/pretalx/mail/signals.py                                                |        9 |        0 |        0 |        0 |    100% |           |
-| src/pretalx/mail/tasks.py                                                  |       13 |        0 |        2 |        0 |    100% |           |
+| src/pretalx/mail/tasks.py                                                  |       15 |        0 |        2 |        0 |    100% |           |
 | src/pretalx/orga/apps.py                                                   |        4 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/orga/context\_processors.py                                    |       42 |        0 |       18 |        1 |     98% |    17->14 |
 | src/pretalx/orga/forms/cfp.py                                              |      313 |       55 |       82 |       21 |     77% |88->exit, 160, 162, 172-186, 205, 212, 225-271, 338->340, 341, 349, 365->exit, 374->376, 377, 400, 448-449, 514, 515->exit, 528, 530, 554, 632->635 |
@@ -368,7 +368,7 @@
 | src/tests/submission/test\_submission\_permissions.py                      |       47 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_tasks.py                            |       98 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_type\_model.py                      |       21 |        0 |        0 |        0 |    100% |           |
-| **TOTAL**                                                                  | **36553** | **1834** | **5652** |  **763** | **93%** |           |
+| **TOTAL**                                                                  | **36555** | **1831** | **5652** |  **762** | **93%** |           |
 
 
 ## Setup coverage badge
