@@ -122,7 +122,7 @@
 | src/pretalx/common/tables.py                                               |      402 |       50 |      168 |       26 |     85% |61, 63->65, 76-77, 80-81, 135->133, 140->142, 164, 208-209, 253, 260, 286, 289-291, 294->297, 301-308, 322, 396->400, 438-440, 473, 478, 491, 497, 501-504, 571, 582-584, 635, 646->648, 651-652, 670->672, 700-702, 708, 713, 723-725, 728-729 |
 | src/pretalx/common/tasks.py                                                |       40 |        4 |       14 |        5 |     83% |28, 57, 62, 68, 71->exit |
 | src/pretalx/common/templatetags/copyable.py                                |       13 |        0 |        2 |        0 |    100% |           |
-| src/pretalx/common/templatetags/datetimerange.py                           |       28 |        2 |        6 |        2 |     88% |    31, 33 |
+| src/pretalx/common/templatetags/datetimerange.py                           |       28 |        5 |        6 |        3 |     76% |31, 33, 46-48 |
 | src/pretalx/common/templatetags/event\_tags.py                             |        5 |        0 |        0 |        0 |    100% |           |
 | src/pretalx/common/templatetags/filesize.py                                |       13 |        3 |        4 |        1 |     76% | 13-14, 19 |
 | src/pretalx/common/templatetags/form\_media.py                             |       42 |        6 |       24 |        2 |     79% | 39, 58-67 |
@@ -368,7 +368,7 @@
 | src/tests/submission/test\_submission\_permissions.py                      |       47 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_tasks.py                            |       98 |        0 |        0 |        0 |    100% |           |
 | src/tests/submission/test\_submission\_type\_model.py                      |       21 |        0 |        0 |        0 |    100% |           |
-| **TOTAL**                                                                  | **36583** | **1833** | **5662** |  **762** | **93%** |           |
+| **TOTAL**                                                                  | **36583** | **1836** | **5662** |  **763** | **93%** |           |
 
 
 ## Setup coverage badge
