@@ -41,7 +41,7 @@
 | src/pretalx/api/serializers/review.py                                      |       73 |        0 |       14 |        0 |     100% |           |
 | src/pretalx/api/serializers/room.py                                        |       30 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/api/serializers/schedule.py                                    |       71 |        0 |       12 |        0 |     100% |           |
-| src/pretalx/api/serializers/speaker.py                                     |       91 |        0 |       28 |        0 |     100% |           |
+| src/pretalx/api/serializers/speaker.py                                     |       81 |        0 |       24 |        0 |     100% |           |
 | src/pretalx/api/serializers/speaker\_information.py                        |       36 |        0 |        6 |        0 |     100% |           |
 | src/pretalx/api/serializers/submission.py                                  |      230 |        0 |       70 |        0 |     100% |           |
 | src/pretalx/api/serializers/team.py                                        |       49 |        0 |        8 |        0 |     100% |           |
@@ -60,7 +60,7 @@
 | src/pretalx/api/views/speaker\_information.py                              |       16 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/api/views/submission.py                                        |      268 |        0 |       46 |        0 |     100% |           |
 | src/pretalx/api/views/team.py                                              |       91 |        0 |        6 |        0 |     100% |           |
-| src/pretalx/api/views/upload.py                                            |       37 |        0 |        8 |        0 |     100% |           |
+| src/pretalx/api/views/upload.py                                            |       39 |        0 |       10 |        0 |     100% |           |
 | src/pretalx/cfp/apps.py                                                    |        4 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/cfp/flow.py                                                    |      648 |        0 |      210 |        0 |     100% |           |
 | src/pretalx/cfp/forms/auth.py                                              |       26 |        0 |        2 |        0 |     100% |           |
@@ -211,11 +211,11 @@
 | src/pretalx/person/apps.py                                                 |        4 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/person/exporters.py                                            |       25 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/person/forms/auth.py                                           |       41 |        0 |       10 |        0 |     100% |           |
-| src/pretalx/person/forms/auth\_token.py                                    |       39 |        0 |        8 |        0 |     100% |           |
+| src/pretalx/person/forms/auth\_token.py                                    |       41 |        0 |       10 |        0 |     100% |           |
 | src/pretalx/person/forms/information.py                                    |       21 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/person/forms/profile.py                                        |      170 |        0 |       56 |        0 |     100% |           |
 | src/pretalx/person/forms/user.py                                           |      108 |        0 |       26 |        0 |     100% |           |
-| src/pretalx/person/models/auth\_token.py                                   |       73 |        0 |       20 |        0 |     100% |           |
+| src/pretalx/person/models/auth\_token.py                                   |       77 |        0 |       20 |        0 |     100% |           |
 | src/pretalx/person/models/information.py                                   |       33 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/person/models/picture.py                                       |       57 |        0 |       20 |        0 |     100% |           |
 | src/pretalx/person/models/preferences.py                                   |       41 |        0 |       18 |        0 |     100% |           |
@@ -300,7 +300,7 @@
 | src/tests/api/serializers/test\_review.py                                  |      161 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/serializers/test\_room.py                                    |       94 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/serializers/test\_schedule.py                                |      134 |        0 |        0 |        0 |     100% |           |
-| src/tests/api/serializers/test\_speaker.py                                 |      166 |        0 |        2 |        0 |     100% |           |
+| src/tests/api/serializers/test\_speaker.py                                 |      149 |        0 |        2 |        0 |     100% |           |
 | src/tests/api/serializers/test\_speaker\_information.py                    |       65 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/serializers/test\_submission.py                              |      552 |        0 |        4 |        0 |     100% |           |
 | src/tests/api/serializers/test\_team.py                                    |       90 |        0 |        0 |        0 |     100% |           |
@@ -319,11 +319,11 @@
 | src/tests/api/views/integration/test\_room.py                              |      184 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/views/integration/test\_root.py                              |        9 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/views/integration/test\_schedule.py                          |      426 |        0 |       12 |        0 |     100% |           |
-| src/tests/api/views/integration/test\_speaker.py                           |      285 |        0 |        2 |        0 |     100% |           |
+| src/tests/api/views/integration/test\_speaker.py                           |      278 |        0 |        2 |        0 |     100% |           |
 | src/tests/api/views/integration/test\_speaker\_information.py              |       88 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/views/integration/test\_submission.py                        |      747 |        0 |       12 |        0 |     100% |           |
 | src/tests/api/views/integration/test\_team.py                              |      207 |        0 |        4 |        0 |     100% |           |
-| src/tests/api/views/integration/test\_upload.py                            |       38 |        0 |        0 |        0 |     100% |           |
+| src/tests/api/views/integration/test\_upload.py                            |       42 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/views/unit/test\_access\_code.py                             |       41 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/views/unit/test\_event.py                                    |       24 |        0 |        0 |        0 |     100% |           |
 | src/tests/api/views/unit/test\_feedback.py                                 |       25 |        0 |        0 |        0 |     100% |           |
@@ -501,11 +501,11 @@
 | src/tests/orga/views/unit/test\_submission.py                              |      546 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/views/unit/test\_typeahead.py                               |       33 |        0 |        0 |        0 |     100% |           |
 | src/tests/person/forms/test\_auth.py                                       |       91 |        0 |        0 |        0 |     100% |           |
-| src/tests/person/forms/test\_auth\_token.py                                |       66 |        0 |       10 |        0 |     100% |           |
+| src/tests/person/forms/test\_auth\_token.py                                |       73 |        0 |       12 |        0 |     100% |           |
 | src/tests/person/forms/test\_information.py                                |       49 |        0 |        0 |        0 |     100% |           |
 | src/tests/person/forms/test\_profile.py                                    |      357 |        0 |        8 |        0 |     100% |           |
 | src/tests/person/forms/test\_user.py                                       |      206 |        0 |        2 |        0 |     100% |           |
-| src/tests/person/models/test\_auth\_token.py                               |      106 |        0 |        4 |        0 |     100% |           |
+| src/tests/person/models/test\_auth\_token.py                               |      110 |        0 |        4 |        0 |     100% |           |
 | src/tests/person/models/test\_information.py                               |       25 |        0 |        4 |        0 |     100% |           |
 | src/tests/person/models/test\_picture.py                                   |      121 |        0 |        2 |        0 |     100% |           |
 | src/tests/person/models/test\_preferences.py                               |       53 |        0 |        0 |        0 |     100% |           |
@@ -551,7 +551,7 @@
 | src/tests/submission/test\_rules.py                                        |      677 |        0 |        8 |        0 |     100% |           |
 | src/tests/submission/test\_tasks.py                                        |      183 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       60 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **69486** |    **0** | **5924** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **69475** |    **0** | **5926** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
