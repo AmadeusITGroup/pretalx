@@ -145,7 +145,7 @@
 | src/pretalx/common/views/errors.py                                         |       26 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/common/views/generic.py                                        |      479 |        0 |      132 |        0 |     100% |           |
 | src/pretalx/common/views/helpers.py                                        |       13 |        0 |        0 |        0 |     100% |           |
-| src/pretalx/common/views/mixins.py                                         |      369 |        0 |      122 |        0 |     100% |           |
+| src/pretalx/common/views/mixins.py                                         |      375 |        0 |      122 |        0 |     100% |           |
 | src/pretalx/common/views/redirect.py                                       |       28 |        0 |        6 |        0 |     100% |           |
 | src/pretalx/common/views/shortlink.py                                      |       30 |        0 |       18 |        0 |     100% |           |
 | src/pretalx/event/apps.py                                                  |        4 |        0 |        0 |        0 |     100% |           |
@@ -220,7 +220,7 @@
 | src/pretalx/person/models/picture.py                                       |       57 |        0 |       20 |        0 |     100% |           |
 | src/pretalx/person/models/preferences.py                                   |       41 |        0 |       18 |        0 |     100% |           |
 | src/pretalx/person/models/profile.py                                       |       62 |        0 |        4 |        0 |     100% |           |
-| src/pretalx/person/models/user.py                                          |      257 |        0 |       54 |        0 |     100% |           |
+| src/pretalx/person/models/user.py                                          |      258 |        0 |       54 |        0 |     100% |           |
 | src/pretalx/person/rules.py                                                |       32 |        0 |       10 |        0 |     100% |           |
 | src/pretalx/person/services.py                                             |        8 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/person/signals.py                                              |        7 |        0 |        0 |        0 |     100% |           |
@@ -422,7 +422,7 @@
 | src/tests/common/views/unit/test\_errors.py                                |       34 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/views/unit/test\_generic.py                               |      836 |        0 |        8 |        0 |     100% |           |
 | src/tests/common/views/unit/test\_helpers.py                               |       22 |        0 |        0 |        0 |     100% |           |
-| src/tests/common/views/unit/test\_mixins.py                                |      958 |        0 |       14 |        0 |     100% |           |
+| src/tests/common/views/unit/test\_mixins.py                                |      984 |        0 |       14 |        0 |     100% |           |
 | src/tests/common/views/unit/test\_redirect.py                              |       19 |        0 |        0 |        0 |     100% |           |
 | src/tests/conftest.py                                                      |       94 |        0 |        6 |        0 |     100% |           |
 | src/tests/dummy\_app/apps.py                                               |       20 |        0 |        0 |        0 |     100% |           |
@@ -483,7 +483,7 @@
 | src/tests/orga/views/integration/test\_review.py                           |      830 |        0 |       10 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_schedule.py                         |      526 |        0 |        2 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_speaker.py                          |      367 |        0 |        6 |        0 |     100% |           |
-| src/tests/orga/views/integration/test\_submission.py                       |     1118 |        0 |       14 |        0 |     100% |           |
+| src/tests/orga/views/integration/test\_submission.py                       |     1128 |        0 |       14 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_typeahead.py                        |      225 |        0 |       12 |        0 |     100% |           |
 | src/tests/orga/views/unit/test\_admin.py                                   |      127 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/views/unit/test\_auth.py                                    |       67 |        0 |        0 |        0 |     100% |           |
@@ -510,7 +510,7 @@
 | src/tests/person/models/test\_picture.py                                   |      121 |        0 |        2 |        0 |     100% |           |
 | src/tests/person/models/test\_preferences.py                               |       53 |        0 |        0 |        0 |     100% |           |
 | src/tests/person/models/test\_profile.py                                   |      114 |        0 |        0 |        0 |     100% |           |
-| src/tests/person/models/test\_user.py                                      |      478 |        0 |        2 |        0 |     100% |           |
+| src/tests/person/models/test\_user.py                                      |      488 |        0 |        2 |        0 |     100% |           |
 | src/tests/person/test\_exporters.py                                        |      102 |        0 |        0 |        0 |     100% |           |
 | src/tests/person/test\_rules.py                                            |       95 |        0 |        0 |        0 |     100% |           |
 | src/tests/person/test\_services.py                                         |       26 |        0 |        0 |        0 |     100% |           |
@@ -551,7 +551,7 @@
 | src/tests/submission/test\_rules.py                                        |      677 |        0 |        8 |        0 |     100% |           |
 | src/tests/submission/test\_tasks.py                                        |      183 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       60 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **69510** |    **0** | **5926** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **69563** |    **0** | **5926** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
