@@ -121,7 +121,7 @@
 | src/pretalx/common/signals.py                                              |      117 |        0 |       42 |        0 |     100% |           |
 | src/pretalx/common/tables/columns.py                                       |      200 |        0 |       80 |        0 |     100% |           |
 | src/pretalx/common/tables/table.py                                         |      203 |        0 |       86 |        0 |     100% |           |
-| src/pretalx/common/tasks.py                                                |       42 |        0 |       14 |        0 |     100% |           |
+| src/pretalx/common/tasks.py                                                |       44 |        0 |       14 |        0 |     100% |           |
 | src/pretalx/common/templatetags/copyable.py                                |       13 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/common/templatetags/datetimerange.py                           |       28 |        0 |        6 |        0 |     100% |           |
 | src/pretalx/common/templatetags/event\_tags.py                             |        5 |        0 |        0 |        0 |     100% |           |
@@ -491,7 +491,7 @@
 | src/tests/common/test\_plugins.py                                          |       69 |        0 |        4 |        0 |     100% |           |
 | src/tests/common/test\_signals.py                                          |      210 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/test\_tables.py                                           |      978 |        0 |        0 |        0 |     100% |           |
-| src/tests/common/test\_tasks.py                                            |      120 |        0 |        0 |        0 |     100% |           |
+| src/tests/common/test\_tasks.py                                            |      128 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/test\_ui.py                                               |      122 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/test\_update\_check.py                                    |      151 |        0 |        4 |        0 |     100% |           |
 | src/tests/common/text/test\_console.py                                     |       53 |        0 |        0 |        0 |     100% |           |
@@ -709,7 +709,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **75138** |    **0** | **5934** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **75148** |    **0** | **5934** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
