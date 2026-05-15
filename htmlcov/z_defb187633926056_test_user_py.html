@@ -55,8 +55,8 @@
             </div>
         </aside>
         <h2>
-            <span class="text">194 statements &nbsp;</span>
-            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">194<span class="text"> run</span></button>
+            <span class="text">192 statements &nbsp;</span>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">192<span class="text"> run</span></button>
             <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">0<span class="text"> missing</span></button>
             <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">0<span class="text"> excluded</span></button>
             <button type="button" class="par run show_par button_toggle_par" value="par" data-shortcut="p" title="Toggle lines partially run">0<span class="text"> partial</span></button>
@@ -67,7 +67,7 @@
             <a id="nextFileLink" class="nav" href="z_5b10c6715de49c27_test_create_test_event_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.13.5">coverage.py v7.13.5</a>,
-            created at 2026-05-09 11:44 +0000
+            created at 2026-05-15 17:44 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"></button>
@@ -99,7 +99,7 @@
     <p class="run run2"><span class="n"><a id="t15" href="#t15">15</a></span><span class="t">    <span class="nam">SubmissionsListView</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
     <p class="run run2"><span class="n"><a id="t16" href="#t16">16</a></span><span class="t">    <span class="nam">SubmissionViewMixin</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
     <p class="run run2"><span class="n"><a id="t17" href="#t17">17</a></span><span class="t"><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t18" href="#t18">18</a></span><span class="t"><span class="key">from</span> <span class="nam">pretalx</span><span class="op">.</span><span class="nam">mail</span><span class="op">.</span><span class="nam">models</span> <span class="key">import</span> <span class="nam">QueuedMailStates</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t18" href="#t18">18</a></span><span class="t"><span class="key">from</span> <span class="nam">pretalx</span><span class="op">.</span><span class="nam">mail</span><span class="op">.</span><span class="nam">enums</span> <span class="key">import</span> <span class="nam">QueuedMailStates</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t19" href="#t19">19</a></span><span class="t"><span class="key">from</span> <span class="nam">pretalx</span><span class="op">.</span><span class="nam">submission</span><span class="op">.</span><span class="nam">models</span> <span class="key">import</span> <span class="nam">SubmissionStates</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t20" href="#t20">20</a></span><span class="t"><span class="key">from</span> <span class="nam">tests</span><span class="op">.</span><span class="nam">factories</span> <span class="key">import</span> <span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="run run2"><span class="n"><a id="t21" href="#t21">21</a></span><span class="t">    <span class="nam">EventFactory</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
@@ -408,17 +408,15 @@
     <p class="run"><span class="n"><a id="t324" href="#t324">324</a></span><span class="t">    <span class="nam">unchanged_form</span><span class="op">.</span><span class="nam">instance</span><span class="op">.</span><span class="nam">pk</span> <span class="op">=</span> <span class="num">1</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t325" href="#t325">325</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t326" href="#t326">326</a></span><span class="t">    <span class="nam">formset</span> <span class="op">=</span> <span class="nam">MagicMock</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t327" href="#t327">327</a></span><span class="t">    <span class="nam">formset</span><span class="op">.</span><span class="nam">is_valid</span><span class="op">.</span><span class="nam">return_value</span> <span class="op">=</span> <span class="key">True</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t328" href="#t328">328</a></span><span class="t">    <span class="nam">formset</span><span class="op">.</span><span class="nam">initial_forms</span> <span class="op">=</span> <span class="op">[</span><span class="nam">unchanged_form</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t329" href="#t329">329</a></span><span class="t">    <span class="nam">formset</span><span class="op">.</span><span class="nam">deleted_forms</span> <span class="op">=</span> <span class="op">[</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t330" href="#t330">330</a></span><span class="t">    <span class="nam">formset</span><span class="op">.</span><span class="nam">extra_forms</span> <span class="op">=</span> <span class="op">[</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
-    <p class="pln"><span class="n"><a id="t331" href="#t331">331</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t332" href="#t332">332</a></span><span class="t">    <span class="nam">view</span><span class="op">.</span><span class="nam">__dict__</span><span class="op">[</span><span class="str">"formset"</span><span class="op">]</span> <span class="op">=</span> <span class="nam">formset</span>&nbsp;</span><span class="r"></span></p>
-    <p class="pln"><span class="n"><a id="t333" href="#t333">333</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t334" href="#t334">334</a></span><span class="t">    <span class="nam">result</span> <span class="op">=</span> <span class="nam">view</span><span class="op">.</span><span class="nam">save_formset</span><span class="op">(</span><span class="nam">MagicMock</span><span class="op">(</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="pln"><span class="n"><a id="t335" href="#t335">335</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t336" href="#t336">336</a></span><span class="t">    <span class="key">assert</span> <span class="nam">result</span> <span class="key">is</span> <span class="key">True</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t337" href="#t337">337</a></span><span class="t">    <span class="nam">unchanged_form</span><span class="op">.</span><span class="nam">save</span><span class="op">.</span><span class="nam">assert_not_called</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t327" href="#t327">327</a></span><span class="t">    <span class="nam">formset</span><span class="op">.</span><span class="nam">initial_forms</span> <span class="op">=</span> <span class="op">[</span><span class="nam">unchanged_form</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t328" href="#t328">328</a></span><span class="t">    <span class="nam">formset</span><span class="op">.</span><span class="nam">deleted_forms</span> <span class="op">=</span> <span class="op">[</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t329" href="#t329">329</a></span><span class="t">    <span class="nam">formset</span><span class="op">.</span><span class="nam">extra_forms</span> <span class="op">=</span> <span class="op">[</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t330" href="#t330">330</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t331" href="#t331">331</a></span><span class="t">    <span class="nam">view</span><span class="op">.</span><span class="nam">__dict__</span><span class="op">[</span><span class="str">"formset"</span><span class="op">]</span> <span class="op">=</span> <span class="nam">formset</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t332" href="#t332">332</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t333" href="#t333">333</a></span><span class="t">    <span class="nam">view</span><span class="op">.</span><span class="nam">save_formset</span><span class="op">(</span><span class="nam">MagicMock</span><span class="op">(</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t334" href="#t334">334</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t335" href="#t335">335</a></span><span class="t">    <span class="nam">unchanged_form</span><span class="op">.</span><span class="nam">save</span><span class="op">.</span><span class="nam">assert_not_called</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
 </main>
 <footer>
     <div class="content">
@@ -428,7 +426,7 @@
             <a class="nav" href="z_5b10c6715de49c27_test_create_test_event_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.13.5">coverage.py v7.13.5</a>,
-            created at 2026-05-09 11:44 +0000
+            created at 2026-05-15 17:44 +0000
         </p>
     </div>
 </footer>
