@@ -67,7 +67,7 @@
             <a id="nextFileLink" class="nav" href="z_aa5cc65f4b1bea13_wizard_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.13.5">coverage.py v7.13.5</a>,
-            created at 2026-05-15 23:44 +0000
+            created at 2026-05-16 11:44 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"></button>
@@ -269,7 +269,7 @@
     <p class="run run2"><span class="n"><a id="t185" href="#t185">185</a></span><span class="t">            <span class="nam">event</span><span class="op">=</span><span class="nam">self</span><span class="op">.</span><span class="nam">request</span><span class="op">.</span><span class="nam">event</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
     <p class="run run2"><span class="n"><a id="t186" href="#t186">186</a></span><span class="t">            <span class="nam">speakers__user</span><span class="op">=</span><span class="nam">self</span><span class="op">.</span><span class="nam">request</span><span class="op">.</span><span class="nam">user</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
     <p class="run run2"><span class="n"><a id="t187" href="#t187">187</a></span><span class="t">            <span class="nam">state</span><span class="op">=</span><span class="nam">SubmissionStates</span><span class="op">.</span><span class="nam">DRAFT</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run run2"><span class="n"><a id="t188" href="#t188">188</a></span><span class="t">        <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run run2"><span class="n"><a id="t188" href="#t188">188</a></span><span class="t">        <span class="op">)</span><span class="op">.</span><span class="nam">select_related</span><span class="op">(</span><span class="str">"event"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t189" href="#t189">189</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t190" href="#t190">190</a></span><span class="t">    <span class="key">def</span> <span class="nam">get_queryset</span><span class="op">(</span><span class="nam">self</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t191" href="#t191">191</a></span><span class="t">        <span class="key">return</span> <span class="nam">self</span><span class="op">.</span><span class="nam">request</span><span class="op">.</span><span class="nam">event</span><span class="op">.</span><span class="nam">submissions</span><span class="op">.</span><span class="nam">filter</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
@@ -691,7 +691,7 @@
             <a class="nav" href="z_aa5cc65f4b1bea13_wizard_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.13.5">coverage.py v7.13.5</a>,
-            created at 2026-05-15 23:44 +0000
+            created at 2026-05-16 11:44 +0000
         </p>
     </div>
 </footer>
