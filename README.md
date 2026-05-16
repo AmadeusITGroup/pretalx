@@ -95,7 +95,7 @@
 | src/pretalx/common/forms/renderers.py                                      |       22 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/common/forms/tables.py                                         |       39 |        0 |       14 |        0 |     100% |           |
 | src/pretalx/common/forms/validators.py                                     |       32 |        0 |        0 |        0 |     100% |           |
-| src/pretalx/common/forms/widgets.py                                        |      292 |        0 |       40 |        0 |     100% |           |
+| src/pretalx/common/forms/widgets.py                                        |      316 |        0 |       44 |        0 |     100% |           |
 | src/pretalx/common/image.py                                                |      127 |        0 |       38 |        0 |     100% |           |
 | src/pretalx/common/language.py                                             |       42 |        0 |        6 |        0 |     100% |           |
 | src/pretalx/common/log.py                                                  |      130 |        0 |       54 |        0 |     100% |           |
@@ -167,7 +167,7 @@
 | src/pretalx/event/domain/stages.py                                         |       39 |        0 |       10 |        0 |     100% |           |
 | src/pretalx/event/domain/team.py                                           |       43 |        0 |        8 |        0 |     100% |           |
 | src/pretalx/event/interfaces/forms/event.py                                |      188 |        0 |       32 |        0 |     100% |           |
-| src/pretalx/event/interfaces/forms/organiser.py                            |       59 |        0 |        6 |        0 |     100% |           |
+| src/pretalx/event/interfaces/forms/organiser.py                            |       59 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/event/models/event.py                                          |      329 |        0 |       26 |        0 |     100% |           |
 | src/pretalx/event/models/organiser.py                                      |       77 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/event/receivers.py                                             |       17 |        0 |        4 |        0 |     100% |           |
@@ -458,7 +458,7 @@
 | src/tests/common/forms/test\_mixins.py                                     |      263 |        0 |        6 |        0 |     100% |           |
 | src/tests/common/forms/test\_tables.py                                     |       82 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/forms/test\_validators.py                                 |       17 |        0 |        0 |        0 |     100% |           |
-| src/tests/common/forms/test\_widgets.py                                    |      292 |        0 |        0 |        0 |     100% |           |
+| src/tests/common/forms/test\_widgets.py                                    |      321 |        0 |        4 |        0 |     100% |           |
 | src/tests/common/middleware/test\_domains.py                               |      417 |        0 |        2 |        0 |     100% |           |
 | src/tests/common/middleware/test\_event.py                                 |      352 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/middleware/test\_security.py                              |       41 |        0 |        0 |        0 |     100% |           |
@@ -597,7 +597,7 @@
 | src/tests/orga/views/integration/test\_schedule.py                         |      526 |        0 |        2 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_speaker.py                          |      367 |        0 |        4 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_submission.py                       |     1186 |        0 |       14 |        0 |     100% |           |
-| src/tests/orga/views/integration/test\_typeahead.py                        |      225 |        0 |       12 |        0 |     100% |           |
+| src/tests/orga/views/integration/test\_typeahead.py                        |      239 |        0 |       12 |        0 |     100% |           |
 | src/tests/orga/views/unit/test\_admin.py                                   |      127 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/views/unit/test\_auth.py                                    |       68 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/views/unit/test\_cards.py                                   |       23 |        0 |        0 |        0 |     100% |           |
@@ -711,7 +711,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **75417** |    **0** | **5952** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **75484** |    **0** | **5958** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
