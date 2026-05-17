@@ -269,7 +269,7 @@
 | src/pretalx/schedule/apps.py                                               |        4 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/schedule/domain/availability.py                                |       26 |        0 |       10 |        0 |     100% |           |
 | src/pretalx/schedule/domain/changelog.py                                   |       16 |        0 |        8 |        0 |     100% |           |
-| src/pretalx/schedule/domain/changes.py                                     |      171 |        0 |       80 |        0 |     100% |           |
+| src/pretalx/schedule/domain/changes.py                                     |      173 |        0 |       80 |        0 |     100% |           |
 | src/pretalx/schedule/domain/ical.py                                        |       48 |        0 |        6 |        0 |     100% |           |
 | src/pretalx/schedule/domain/notifications.py                               |       61 |        0 |       26 |        0 |     100% |           |
 | src/pretalx/schedule/domain/queries/schedule.py                            |       15 |        0 |        6 |        0 |     100% |           |
@@ -715,7 +715,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **75756** |    **0** | **5978** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **75758** |    **0** | **5978** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
