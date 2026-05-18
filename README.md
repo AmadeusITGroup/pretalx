@@ -73,7 +73,7 @@
 | src/pretalx/cfp/phrases.py                                                 |       21 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/cfp/signals.py                                                 |       11 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/cfp/views/auth.py                                              |       92 |        0 |       10 |        0 |     100% |           |
-| src/pretalx/cfp/views/event.py                                             |       58 |        0 |       10 |        0 |     100% |           |
+| src/pretalx/cfp/views/event.py                                             |       52 |        0 |       10 |        0 |     100% |           |
 | src/pretalx/cfp/views/locale.py                                            |       19 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/cfp/views/robots.py                                            |        5 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/cfp/views/user.py                                              |      346 |        0 |       50 |        0 |     100% |           |
@@ -110,7 +110,7 @@
 | src/pretalx/common/management/commands/spectacular.py                      |        6 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/common/management/commands/update\_translation\_percentages.py |       26 |        0 |        6 |        0 |     100% |           |
 | src/pretalx/common/middleware/domains.py                                   |      143 |        0 |       48 |        0 |     100% |           |
-| src/pretalx/common/middleware/event.py                                     |      109 |        0 |       44 |        0 |     100% |           |
+| src/pretalx/common/middleware/event.py                                     |      112 |        0 |       46 |        0 |     100% |           |
 | src/pretalx/common/middleware/security.py                                  |        8 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/common/middleware/static.py                                    |       13 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/common/models/fields.py                                        |       10 |        0 |        0 |        0 |     100% |           |
@@ -439,7 +439,7 @@
 | src/tests/cfp/views/integration/test\_user.py                              |      852 |        0 |       12 |        0 |     100% |           |
 | src/tests/cfp/views/integration/test\_wizard.py                            |      250 |        0 |        2 |        0 |     100% |           |
 | src/tests/cfp/views/unit/test\_auth.py                                     |       30 |        0 |        0 |        0 |     100% |           |
-| src/tests/cfp/views/unit/test\_event.py                                    |       86 |        0 |        4 |        0 |     100% |           |
+| src/tests/cfp/views/unit/test\_event.py                                    |       74 |        0 |        4 |        0 |     100% |           |
 | src/tests/cfp/views/unit/test\_locale.py                                   |       50 |        0 |        0 |        0 |     100% |           |
 | src/tests/cfp/views/unit/test\_user.py                                     |      192 |        0 |        4 |        0 |     100% |           |
 | src/tests/common/commands/test\_create\_test\_event.py                     |       96 |        0 |        8 |        0 |     100% |           |
@@ -462,7 +462,7 @@
 | src/tests/common/forms/test\_validators.py                                 |       17 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/forms/test\_widgets.py                                    |      321 |        0 |        4 |        0 |     100% |           |
 | src/tests/common/middleware/test\_domains.py                               |      417 |        0 |        2 |        0 |     100% |           |
-| src/tests/common/middleware/test\_event.py                                 |      352 |        0 |        0 |        0 |     100% |           |
+| src/tests/common/middleware/test\_event.py                                 |      404 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/middleware/test\_security.py                              |       41 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/middleware/test\_static.py                                |       31 |        0 |        2 |        0 |     100% |           |
 | src/tests/common/models/test\_file.py                                      |       60 |        0 |        0 |        0 |     100% |           |
@@ -715,7 +715,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **75873** |    **0** | **5988** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **75910** |    **0** | **5990** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
