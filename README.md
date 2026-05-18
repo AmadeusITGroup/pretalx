@@ -188,10 +188,10 @@
 | src/pretalx/mail/domain/smtp.py                                            |       66 |        0 |       24 |        0 |     100% |           |
 | src/pretalx/mail/domain/template.py                                        |        5 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/mail/enums.py                                                  |       17 |        0 |        0 |        0 |     100% |           |
-| src/pretalx/mail/interfaces/forms/compose.py                               |      116 |        0 |       30 |        0 |     100% |           |
+| src/pretalx/mail/interfaces/forms/compose.py                               |      120 |        0 |       30 |        0 |     100% |           |
 | src/pretalx/mail/interfaces/forms/config.py                                |       44 |        0 |       14 |        0 |     100% |           |
 | src/pretalx/mail/interfaces/forms/queued\_mail.py                          |       78 |        0 |       26 |        0 |     100% |           |
-| src/pretalx/mail/interfaces/forms/template.py                              |       54 |        0 |       12 |        0 |     100% |           |
+| src/pretalx/mail/interfaces/forms/template.py                              |       54 |        0 |       16 |        0 |     100% |           |
 | src/pretalx/mail/models/queued\_mail.py                                    |       86 |        0 |        8 |        0 |     100% |           |
 | src/pretalx/mail/models/templates.py                                       |       38 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/mail/receivers.py                                              |       10 |        0 |        2 |        0 |     100% |           |
@@ -555,7 +555,7 @@
 | src/tests/mail/domain/test\_send.py                                        |      304 |        0 |        0 |        0 |     100% |           |
 | src/tests/mail/domain/test\_smtp.py                                        |       23 |        0 |        0 |        0 |     100% |           |
 | src/tests/mail/domain/test\_template.py                                    |       18 |        0 |        0 |        0 |     100% |           |
-| src/tests/mail/interfaces/forms/test\_compose.py                           |      309 |        0 |        2 |        0 |     100% |           |
+| src/tests/mail/interfaces/forms/test\_compose.py                           |      364 |        0 |        2 |        0 |     100% |           |
 | src/tests/mail/interfaces/forms/test\_config.py                            |       76 |        0 |        2 |        0 |     100% |           |
 | src/tests/mail/interfaces/forms/test\_queued\_mail.py                      |      166 |        0 |        0 |        0 |     100% |           |
 | src/tests/mail/interfaces/forms/test\_template.py                          |       95 |        0 |        2 |        0 |     100% |           |
@@ -715,7 +715,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **75814** |    **0** | **5984** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **75873** |    **0** | **5988** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
