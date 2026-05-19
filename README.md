@@ -677,7 +677,7 @@
 | src/tests/submission/domain/test\_question.py                              |      402 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/domain/test\_resource.py                              |       32 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/domain/test\_review.py                                |      195 |        0 |        0 |        0 |     100% |           |
-| src/tests/submission/domain/test\_submission.py                            |      912 |        0 |       12 |        0 |     100% |           |
+| src/tests/submission/domain/test\_submission.py                            |      913 |        0 |       12 |        0 |     100% |           |
 | src/tests/submission/domain/test\_submission\_type.py                      |       61 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/domain/test\_track.py                                 |       16 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/interfaces/forms/test\_access\_code.py                |       68 |        0 |        0 |        0 |     100% |           |
@@ -715,7 +715,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **75910** |    **0** | **5990** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **75911** |    **0** | **5990** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
