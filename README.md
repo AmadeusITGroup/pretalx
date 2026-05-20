@@ -85,7 +85,7 @@
 | src/pretalx/common/db.py                                                   |       21 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/common/domain/queries/log.py                                   |        6 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/common/exceptions.py                                           |       76 |        0 |       26 |        0 |     100% |           |
-| src/pretalx/common/exporter.py                                             |      114 |        0 |       22 |        0 |     100% |           |
+| src/pretalx/common/exporter.py                                             |      117 |        0 |       22 |        0 |     100% |           |
 | src/pretalx/common/fonts.py                                                |       61 |        0 |       36 |        0 |     100% |           |
 | src/pretalx/common/formats/en/formats.py                                   |        3 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/common/forms/fields.py                                         |      297 |        0 |      100 |        0 |     100% |           |
@@ -205,7 +205,7 @@
 | src/pretalx/orga/context\_processors.py                                    |       42 |        0 |       18 |        0 |     100% |           |
 | src/pretalx/orga/forms/admin.py                                            |       11 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/orga/forms/cfp.py                                              |       73 |        0 |       10 |        0 |     100% |           |
-| src/pretalx/orga/forms/export.py                                           |      277 |        0 |       48 |        0 |     100% |           |
+| src/pretalx/orga/forms/export.py                                           |      272 |        0 |       48 |        0 |     100% |           |
 | src/pretalx/orga/forms/review.py                                           |      142 |        0 |       48 |        0 |     100% |           |
 | src/pretalx/orga/forms/submission.py                                       |       27 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/orga/forms/widgets.py                                          |       59 |        0 |        6 |        0 |     100% |           |
@@ -489,7 +489,7 @@
 | src/tests/common/test\_context\_processors.py                              |      166 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/test\_db.py                                               |       48 |        0 |        4 |        0 |     100% |           |
 | src/tests/common/test\_exceptions.py                                       |      147 |        0 |        0 |        0 |     100% |           |
-| src/tests/common/test\_exporter.py                                         |      345 |        0 |        2 |        0 |     100% |           |
+| src/tests/common/test\_exporter.py                                         |      357 |        0 |        2 |        0 |     100% |           |
 | src/tests/common/test\_fonts.py                                            |      116 |        0 |        2 |        0 |     100% |           |
 | src/tests/common/test\_image.py                                            |      196 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/test\_language.py                                         |       70 |        0 |        4 |        0 |     100% |           |
@@ -566,7 +566,7 @@
 | src/tests/mail/test\_validators.py                                         |       30 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/forms/test\_admin.py                                        |       39 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/forms/test\_cfp.py                                          |       88 |        0 |        0 |        0 |     100% |           |
-| src/tests/orga/forms/test\_export.py                                       |      625 |        0 |       16 |        0 |     100% |           |
+| src/tests/orga/forms/test\_export.py                                       |      639 |        0 |       16 |        0 |     100% |           |
 | src/tests/orga/forms/test\_review.py                                       |      340 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/forms/test\_submission.py                                   |       49 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/forms/test\_widgets.py                                      |      107 |        0 |        0 |        0 |     100% |           |
@@ -598,8 +598,8 @@
 | src/tests/orga/views/integration/test\_person.py                           |      173 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_plugins.py                          |       62 |        0 |        0 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_review.py                           |      830 |        0 |       10 |        0 |     100% |           |
-| src/tests/orga/views/integration/test\_schedule.py                         |      526 |        0 |        2 |        0 |     100% |           |
-| src/tests/orga/views/integration/test\_speaker.py                          |      367 |        0 |        4 |        0 |     100% |           |
+| src/tests/orga/views/integration/test\_schedule.py                         |      527 |        0 |        2 |        0 |     100% |           |
+| src/tests/orga/views/integration/test\_speaker.py                          |      368 |        0 |        4 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_submission.py                       |     1189 |        0 |       14 |        0 |     100% |           |
 | src/tests/orga/views/integration/test\_typeahead.py                        |      239 |        0 |       12 |        0 |     100% |           |
 | src/tests/orga/views/unit/test\_admin.py                                   |      127 |        0 |        0 |        0 |     100% |           |
@@ -630,7 +630,7 @@
 | src/tests/person/interfaces/forms/test\_invitation.py                      |       51 |        0 |        0 |        0 |     100% |           |
 | src/tests/person/interfaces/forms/test\_profile.py                         |      215 |        0 |        4 |        0 |     100% |           |
 | src/tests/person/interfaces/forms/test\_widgets.py                         |       34 |        0 |        0 |        0 |     100% |           |
-| src/tests/person/interfaces/test\_exporters.py                             |      102 |        0 |        0 |        0 |     100% |           |
+| src/tests/person/interfaces/test\_exporters.py                             |      103 |        0 |        0 |        0 |     100% |           |
 | src/tests/person/models/test\_auth\_token.py                               |       82 |        0 |        4 |        0 |     100% |           |
 | src/tests/person/models/test\_information.py                               |       25 |        0 |        4 |        0 |     100% |           |
 | src/tests/person/models/test\_picture.py                                   |       98 |        0 |        2 |        0 |     100% |           |
@@ -715,7 +715,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **75911** |    **0** | **5990** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **75938** |    **0** | **5990** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
