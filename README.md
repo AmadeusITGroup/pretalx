@@ -150,7 +150,7 @@
 | src/pretalx/common/ui.py                                                   |       53 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/common/update\_check.py                                        |       87 |        0 |       24 |        0 |     100% |           |
 | src/pretalx/common/views/cache.py                                          |       57 |        0 |       28 |        0 |     100% |           |
-| src/pretalx/common/views/errors.py                                         |       26 |        0 |        4 |        0 |     100% |           |
+| src/pretalx/common/views/errors.py                                         |       27 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/common/views/generic.py                                        |      464 |        0 |      124 |        0 |     100% |           |
 | src/pretalx/common/views/helpers.py                                        |       13 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/common/views/mixins.py                                         |      377 |        0 |      124 |        0 |     100% |           |
@@ -231,7 +231,7 @@
 | src/pretalx/orga/views/cards.py                                            |       16 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/orga/views/cfp.py                                              |      701 |        0 |      182 |        0 |     100% |           |
 | src/pretalx/orga/views/dashboard.py                                        |      161 |        0 |       44 |        0 |     100% |           |
-| src/pretalx/orga/views/event.py                                            |      398 |        0 |       82 |        0 |     100% |           |
+| src/pretalx/orga/views/event.py                                            |      382 |        0 |       72 |        0 |     100% |           |
 | src/pretalx/orga/views/mails.py                                            |      434 |        0 |       90 |        0 |     100% |           |
 | src/pretalx/orga/views/organiser.py                                        |      298 |        0 |       38 |        0 |     100% |           |
 | src/pretalx/orga/views/person.py                                           |      115 |        0 |       30 |        0 |     100% |           |
@@ -513,7 +513,7 @@
 | src/tests/common/views/integration/test\_redirect.py                       |       30 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/views/integration/test\_shortlink.py                      |      106 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/views/unit/test\_cache.py                                 |      191 |        0 |        0 |        0 |     100% |           |
-| src/tests/common/views/unit/test\_errors.py                                |       34 |        0 |        0 |        0 |     100% |           |
+| src/tests/common/views/unit/test\_errors.py                                |       33 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/views/unit/test\_generic.py                               |      813 |        0 |        8 |        0 |     100% |           |
 | src/tests/common/views/unit/test\_helpers.py                               |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/common/views/unit/test\_mixins.py                                |      989 |        0 |       14 |        0 |     100% |           |
@@ -715,7 +715,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **75975** |    **0** | **5994** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **75959** |    **0** | **5984** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
