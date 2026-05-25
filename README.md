@@ -166,7 +166,7 @@
 | src/pretalx/event/domain/queries/organiser.py                              |        7 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/event/domain/queries/team.py                                   |       18 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/event/domain/stages.py                                         |       39 |        0 |       10 |        0 |     100% |           |
-| src/pretalx/event/domain/team.py                                           |       43 |        0 |        8 |        0 |     100% |           |
+| src/pretalx/event/domain/team.py                                           |       46 |        0 |       10 |        0 |     100% |           |
 | src/pretalx/event/interfaces/forms/event.py                                |      194 |        0 |       34 |        0 |     100% |           |
 | src/pretalx/event/interfaces/forms/organiser.py                            |       59 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/event/models/event.py                                          |      329 |        0 |       26 |        0 |     100% |           |
@@ -295,7 +295,7 @@
 | src/pretalx/schedule/validators/schedule.py                                |       10 |        0 |        6 |        0 |     100% |           |
 | src/pretalx/schedule/validators/slot.py                                    |       12 |        0 |        8 |        0 |     100% |           |
 | src/pretalx/submission/apps.py                                             |        4 |        0 |        0 |        0 |     100% |           |
-| src/pretalx/submission/domain/access\_code.py                              |       15 |        0 |        0 |        0 |     100% |           |
+| src/pretalx/submission/domain/access\_code.py                              |       22 |        0 |        2 |        0 |     100% |           |
 | src/pretalx/submission/domain/cfp.py                                       |       11 |        0 |        4 |        0 |     100% |           |
 | src/pretalx/submission/domain/comment.py                                   |        4 |        0 |        0 |        0 |     100% |           |
 | src/pretalx/submission/domain/feedback.py                                  |        7 |        0 |        4 |        0 |     100% |           |
@@ -530,7 +530,7 @@
 | src/tests/event/domain/test\_organiser.py                                  |       57 |        0 |        0 |        0 |     100% |           |
 | src/tests/event/domain/test\_plugins.py                                    |       57 |        0 |        0 |        0 |     100% |           |
 | src/tests/event/domain/test\_stages.py                                     |      150 |        0 |       12 |        0 |     100% |           |
-| src/tests/event/domain/test\_team.py                                       |       83 |        0 |        0 |        0 |     100% |           |
+| src/tests/event/domain/test\_team.py                                       |       94 |        0 |        0 |        0 |     100% |           |
 | src/tests/event/interfaces/forms/test\_event.py                            |      507 |        0 |        8 |        0 |     100% |           |
 | src/tests/event/interfaces/forms/test\_organiser.py                        |      117 |        0 |        4 |        0 |     100% |           |
 | src/tests/event/models/test\_event.py                                      |      359 |        0 |        4 |        0 |     100% |           |
@@ -669,7 +669,7 @@
 | src/tests/submission/domain/queries/test\_review.py                        |       99 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/domain/queries/test\_speaker.py                       |       29 |        0 |        2 |        0 |     100% |           |
 | src/tests/submission/domain/queries/test\_submission.py                    |      465 |        0 |        8 |        0 |     100% |           |
-| src/tests/submission/domain/test\_access\_code.py                          |       51 |        0 |        0 |        0 |     100% |           |
+| src/tests/submission/domain/test\_access\_code.py                          |       62 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/domain/test\_cfp.py                                   |       40 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/domain/test\_comment.py                               |       28 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/domain/test\_feedback.py                              |       34 |        0 |        0 |        0 |     100% |           |
@@ -715,7 +715,7 @@
 | src/tests/submission/validators/test\_track.py                             |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/submission/validators/test\_type.py                              |       22 |        0 |        0 |        0 |     100% |           |
 | src/tests/utils.py                                                         |       61 |        0 |       16 |        0 |     100% |           |
-| **TOTAL**                                                                  | **76109** |    **0** | **5986** |    **0** | **100%** |           |
+| **TOTAL**                                                                  | **76141** |    **0** | **5990** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
