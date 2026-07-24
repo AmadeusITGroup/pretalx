@@ -178,6 +178,13 @@ export default {
 			if (!this.schedule) return {}
 			return this.schedule.rooms.reduce((acc, room) => { acc[room.id] = room; return acc }, {})
 		},
+		editorSessionEnd () {
+			// Derived from the (editable) duration, so it stays correct while the dialog is open
+			if (!this.editorSession || !this.editorSession.start) return null
+			const duration = parseInt(this.editorSession.duration, 10)
+			if (!duration) return this.editorSession.end ? moment(this.editorSession.end) : null
+			return moment(this.editorSession.start).add(duration, 'minutes')
+		},
 		editorAvailableRoomsForCopy () {
 			// Check if we can copy the current break to other rooms
 			if (!this.editorSession || this.editorSession.code || !this.editorSession.start || !this.editorSession.room) {
@@ -185,7 +192,7 @@ export default {
 			}
 			// Find all rooms that are free at the break's time
 			const breakStart = moment(this.editorSession.start)
-			const breakEnd = moment(this.editorSession.end || breakStart.clone().add(this.editorSession.duration, 'minutes'))
+			const breakEnd = this.editorSessionEnd
 			const availableRooms = []
 
 			for (const room of this.schedule.rooms) {
@@ -436,7 +443,7 @@ export default {
 		},
 		editorSave () {
 			this.editorSessionWaiting = true
-			this.editorSession.end = moment(this.editorSession.start).clone().add(this.editorSession.duration, 'm')
+			this.editorSession.end = this.editorSessionEnd
 			this.saveTalk(this.editorSession)
 
 			const session = this.schedule.talks.find(s => s.id === this.editorSession.id)
@@ -471,13 +478,14 @@ export default {
 			// Copy the current break to all available rooms
 			this.editorSessionWaiting = true
 			const availableRooms = this.editorAvailableRoomsForCopy
+			const end = this.editorSessionEnd
 
 			for (const room of availableRooms) {
 				const newBreak = {
 					title: this.editorSession.title,
 					description: this.editorSession.description,
 					start: this.editorSession.start,
-					end: this.editorSession.end,
+					end,
 					duration: this.editorSession.duration,
 					slot_type: this.editorSession.slot_type,
 					room: room.id
